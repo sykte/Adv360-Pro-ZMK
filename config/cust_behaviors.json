@@ -1,0 +1,10 @@
+[
+	{
+		"code": "&bspc_delete",
+		"name": "&bspc_delete",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	}
+]
