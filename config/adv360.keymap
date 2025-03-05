@@ -34,7 +34,7 @@
         Spotlight: Spotlight {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_COMMAND &kp SPACE>;
+            bindings = <&sk RIGHT_COMMAND &kp SPACE>;
             label = "SPOTLIGHT";
         };
     };
@@ -104,6 +104,16 @@
         extra4 {
             display-name = "Yellow";
             status = "reserved";
+        };
+
+        layer_8 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
         };
     };
 };
