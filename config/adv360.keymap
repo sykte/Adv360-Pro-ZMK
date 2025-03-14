@@ -141,11 +141,11 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans     &trans                                      &trans  &trans                   &trans                   &trans                 &trans                    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &Terminal  &trans                                      &trans  &trans                   &trans                   &trans                 &trans                    &trans  &trans
-&trans  &kp Z   &trans  &trans  &trans  &trans     &trans  &trans  &trans      &trans  &trans  &trans  &Mouse_Move_Scroll_Left  &Mouse_Move_Scroll_Down  &Mouse_Move_Scroll_Up  &Mouse_Move_Scroll_Right  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                     &trans      &trans                  &trans                   &trans                   &trans                 &trans                    &trans  &trans
-&trans  &trans  &trans  &trans  &trans             &trans  &trans  &trans      &trans  &trans  &trans                           &trans                   &trans                 &trans                    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans     &trans                                         &trans     &trans                   &trans                   &trans                 &trans                    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &Terminal  &trans                                         &trans     &trans                   &trans                   &trans                 &trans                    &trans  &trans
+&trans  &kp Z   &trans  &trans  &trans  &trans     &trans  &trans  &trans      &trans  &trans     &trans     &Mouse_Move_Scroll_Left  &Mouse_Move_Scroll_Down  &Mouse_Move_Scroll_Up  &Mouse_Move_Scroll_Right  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                     &trans      &trans                        &trans                   &trans                   &trans                 &trans                    &trans  &trans
+&trans  &trans  &trans  &trans  &trans             &trans  &trans  &trans      &trans  &mkp LCLK  &mkp RCLK                           &trans                   &trans                 &trans                    &trans  &trans
             >;
         };
     };
